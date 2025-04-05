@@ -1,0 +1,24 @@
+{
+    "name": "admin",
+    "version": "1.0.0",
+    "type": "module",
+    "scripts": {},
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "description": "",
+    "imports": {
+        "#lib/*": "./lib/*",
+        "#core/*": "./core/*",
+        "#queue/*": "./addons/queue/*",
+        "#workers/*": "./addons/workers/*",
+        "#sockets/*": "./addons/sockets/*"
+    },
+    "main": "index.js",
+    "directories": {
+        "lib": "back/lib"
+    },
+    "dependencies": {
+        "socket.io-client": "^4.8.1"
+    }
+}
