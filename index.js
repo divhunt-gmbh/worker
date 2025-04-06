@@ -18,4 +18,3 @@ worker.Fn('join', function(properties, resolve, reject)
 {
     resolve('Hello there ' + properties.name);
 });
-
