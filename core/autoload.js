@@ -1,8 +1,8 @@
 import '#core/sigint.js';
 
-/* Addon Hooks */
-import '#workers/hook/load.js';
-import '#sockets/hook/load.js';
+/* Addons */
+import '#workers/load.js';
+import '#sockets/load.js';
 
 /* Workers Addon */
 import workers from '#workers/addon.js';
